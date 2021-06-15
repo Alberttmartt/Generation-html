@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8" />
+            <title>Formularios Y Tablas</title>
+    </head>
+        <body>
+            <h1>Formularios Y Tablas</h1>
+
+            <table border="2">
+                <tr>
+                    <th>lunes</th>
+                    <th>martes </th>
+                    <th>miercoles</th>
+                    <th>jueves</th>
+                    <th>viernes</th>
+                
+                </tr>       
+                <tr>
+                    <td>curso de js</td>
+                    <td>curso de bootcamp</td>
+                    <td>curso de java</td>
+                    <td>curso springboot</td>
+                    <td>curso de html</td>
+                </tr>
+                <tr>
+                    <td>fila 1</td>
+                    <td>fila 2</td>
+                    <td>fila 3</td>
+                    <td>fila 4</td>
+                    <td>fila 5</td>
+                </tr>
+                <tr>
+                    <td>fila 6</td>
+                    <td>fila 7</td>
+                    <td>fila 8</td>
+                    <td>fila 9</td>
+                    <td>fila 10</td>
+                </tr>
+            </table>
+                <hr />
+                <form method="POST">
+                    <h3>Registrate</h3>
+
+                    <p>
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" name="Nombre" placeholder="Alberto ......" />
+                    </p>
+
+                    <p>
+                    <label for="email">Correo electronico:</label>
+                    <input type="email" name="email" placeholder="ejemplo@ejemplo.com"/>
+                    </p>
+
+                    <p>
+                    <label for="">Contraseña:</label>
+                    <input type="password" name="password" required />
+                    </p>
+                    <!--<p>
+                    <label for="cumpleano">cumpleaños:</label>
+                    <input type="range" name="password"/>
+                    </p> -->
+                    <p>
+                    <select name="meses" id="">
+                        <option value="Enero">Enero</option>
+                        <option value="febrero">Febrero</option>
+                        <option value="Marzo">Marzo</option>
+                        <option value="Abril">Abril</option>
+                    </select>
+                    </p>
+                    <p>
+                        <input type="checkbox">
+                        <label for="">opcion 1</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="color" value="rojo">
+                        <label for="">rojo</label>
+                        <input type="radio" name="color" value="verde">
+                        <label for="">verde</label>
+                        <input type="radio" name="color" value="azul">
+                        <label for="">azul</label>
+                        <input type="radio" name="color" value="amarillo">  
+                        <label for="">amarillo</label>                      
+                        <input type="radio" name="color" value="naranja">
+                        <Label>naranja</Label>
+                    
+                    </p>
+                    <p>
+                        <textarea name="muchotexto" id="" cols="150" rows="20" ></textarea>
+
+                    </p>
+
+                    <!-- <input type ="submit" value=" registrar"> -->
+                    <button type="submit">registrar</button>
+
+
+                </form>
+
+        </body>
+
+
+</html>
